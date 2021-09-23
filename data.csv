@@ -1,0 +1,6 @@
+id,created_at,customer,state,price,currency,items,sku,quanity,total
+1,30,Anna,pending,99,CAD,classic sheers,ABC-DEF,1,99
+2,19,Bella,paid,139,USD,shirts,DEF-GHI,2,278
+3,22,Christie,return,89,USD,joggers,GHI-JKL,3,267
+4,11,Danny,paid,77,CAD,pants,JKL-LMN,2,154
+5,13,Eddie,return,54,GBP,sweaters,LMN-OPQ,1,54
