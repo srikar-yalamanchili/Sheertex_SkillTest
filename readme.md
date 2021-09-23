@@ -20,8 +20,8 @@ api\_v1.py.
 
 -   Next, this API is used to load the real time data to
     the datwarehouse.
-
-
+    ![Alt archdiagram](img/img1.png?raw="true", "Flow digram")
+    
 -   Basically, API is a secured interface that allows applications to
     communicate within each other and main purpose is for information
     retrieval and updating without the need of manual intervention.
