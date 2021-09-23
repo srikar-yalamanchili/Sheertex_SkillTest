@@ -1,11 +1,11 @@
 **SHEERTEX DATA ENGINEERING SKILLS CHALLENGE**
 
-1\. Load the data into the database using api\_v1.py.
+1. Load the data into the database using api\_v1.py.
 
-2\. Using REST API to retrieve the data using GET method using
+2. Using REST API to retrieve the data using GET method using
 api\_v1.py.
 
-3\. Write the data to the Datawarehouse using Data\_ingestion.py
+3. Write the data to the Datawarehouse using Data\_ingestion.py
 
 -   API provided in the document has only one entry of data for which I
     may not be able to provide the real time usable code. So, I have
@@ -68,14 +68,11 @@ api\_v1.py.
 
     **python api\_v1.py**
 
-    ![](media/image2.png){width="5.117298775153106in"
-    height="2.971969597550306in"}
 
 -   This should open the local browser on port 5000 and the data appears
     on the screen in the JSON format.
 
-> ![](media/image3.png){width="3.1555555555555554in"
-> height="2.9084558180227473in"}
+
 
 -   Now we must extract the data from the REST API and ingest it into
     the Datawarehouse. I have created a SQLite database to save the
@@ -86,11 +83,9 @@ api\_v1.py.
 
     **Python data\_ingestion.py**
 
-    ![](media/image4.png){width="6.5in" height="0.35694444444444445in"}
+
 
 -   Now a **datawarehouse.db** file is generated with **orders** and
     **order\_items** table. We must use the SQLite to access the DB. Use
     the following commands.
 
-    ![](media/image5.png){width="4.6621544181977255in"
-    height="2.671275153105862in"}
