@@ -68,10 +68,12 @@ api\_v1.py.
 
     **python api\_v1.py**
 
+     ![Alt archdiagram](img/img2.png?raw="true", "console diagram1")
 
 -   This should open the local browser on port 5000 and the data appears
     on the screen in the JSON format.
-
+    
+    ![Alt archdiagram](img/img3.png?raw="true", "console diagram")
 
 
 -   Now we must extract the data from the REST API and ingest it into
@@ -82,10 +84,12 @@ api\_v1.py.
     following command.
 
     **Python data\_ingestion.py**
-
-
+    
+    ![Alt archdiagram](img/img4.png?raw="true", "Flow digram")
 
 -   Now a **datawarehouse.db** file is generated with **orders** and
     **order\_items** table. We must use the SQLite to access the DB. Use
     the following commands.
+    
+    ![Alt archdiagram](img/img5.png?raw="true", "Flow digram")
 
